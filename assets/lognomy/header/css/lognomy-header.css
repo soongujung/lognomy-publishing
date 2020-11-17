@@ -68,7 +68,8 @@ h1 {
 /*    margin: 0 0 11px;*/
     
 /*    background-image: url("../img/chart_03.jpeg");*/
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTOAldRU9sAKL016CtbDQ-JWlBAYaj8kZwNCQ&usqp=CAU");
+/*    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTOAldRU9sAKL016CtbDQ-JWlBAYaj8kZwNCQ&usqp=CAU");*/
+    background-image: url("../img/lognomy-logo-white-550-200.png");
     background-position: 0 0;
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -88,13 +89,56 @@ h1 {
     width: 250px;
     height: 100px;    
     
-/*
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTOAldRU9sAKL016CtbDQ-JWlBAYaj8kZwNCQ&usqp=CAU");
+
+/*    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTOAldRU9sAKL016CtbDQ-JWlBAYaj8kZwNCQ&usqp=CAU");*/
+    background-image: url("../img/lognomy-logo-white-550-200.png");
     background-position: 0 0;
     background-repeat: no-repeat;
     background-size: 100% 100%;
-*/
+
 }
 
 
+.menubar {
+    display: flex;
+    padding: 1rem;
+/*    width: 768px;*/
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 768px){
+    .menubar {
+        width: 100%;
+        overflow-x: auto;
+    }
+}
+
+.menubar .menu {
+    font-size: 1.125rem;
+    cursor: pointer;
+    white-space: pre;
+    text-decoration: none;
+    color: inherit;
+    padding-bottom: 0.25rem;
+}
+
+.menu:hover {
+    color: #495057;
+}
+
+.menu.active {
+    font-weight: 600;
+    /*border-bottom: 2px solid #22b8cf;*/
+    /*color: #22b8cf;*/
+    border-bottom: 2px solid #00CA5F;
+    color: #00CA5F;
+}
+
+.menu .active:hover {
+     color: #3bc9db;
+}
+
+.menu {
+    margin-left: 1rem;
+}
 
